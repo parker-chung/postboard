@@ -28,7 +28,7 @@ Inside the project directory:
 
 ### Display All Posts
 
-API URL: `/` || `/posts`
+API URL: `posts`
 
 API Request Method: GET
 <table>
@@ -39,7 +39,7 @@ API Request Method: GET
 <th>Description</th>
 </tr>
 <tr>
-<td>api-token</td>
+<td>token</td>
 <td>string</td>
 <td>optinal</td>
 <td>token created when logging in</td>
@@ -67,7 +67,7 @@ Response: <br>
 
 ### Store a new post
 
-API URL: `/`
+API URL: `posts`
 
 API Request Method: POST
 <table>
@@ -78,7 +78,7 @@ API Request Method: POST
 <th>Description</th>
 </tr>
 <tr>
-<td>api-token</td>
+<td>token</td>
 <td>string</td>
 <td>optinal</td>
 <td>token created when logging in</td>
@@ -111,7 +111,7 @@ Response: <br>
 
 ### Update the specified post
 
-API URL: `/posts/{post}`
+API URL: `posts/{post}`
 
 API Request Method: POST (PATCH)
 <table>
@@ -122,7 +122,7 @@ API Request Method: POST (PATCH)
 <th>Description</th>
 </tr>
 <tr>
-<td>api-token</td>
+<td>token</td>
 <td>string</td>
 <td>Required</td>
 <td>token created when logging in</td>
@@ -163,7 +163,7 @@ Response: <br>
 
 ### Delete the specified post
 
-API URL: `/posts/{post}`
+API URL: `posts/{post}`
 
 API Request Method: POST (DELETE)
 <table>
@@ -174,7 +174,7 @@ API Request Method: POST (DELETE)
 <th>Description</th>
 </tr>
 <tr>
-<td>api-token</td>
+<td>token</td>
 <td>string</td>
 <td>Required</td>
 <td>token created when logging in</td>
