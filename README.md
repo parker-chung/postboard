@@ -93,10 +93,16 @@ API Request Method: POST
 <th>Description</th>
 </tr>
 <tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>title</td>
+<td>string</td>
+<td>required</td>
+<td>post title</td>
+</tr>
+<tr>
+<td>content</td>
+<td>long text</td>
+<td>required</td>
+<td>post content</td>
 </tr>
 </table>
 
@@ -135,6 +141,18 @@ API Request Method: POST (PATCH)
 <td>integer</td>
 <td>required</td>
 <td>post id</td>
+</tr>
+<tr>
+<td>title</td>
+<td>string</td>
+<td>required</td>
+<td>post title</td>
+</tr>
+<tr>
+<td>content</td>
+<td>long text</td>
+<td>required</td>
+<td>post content</td>
 </tr>
 </table>
 
